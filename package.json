@@ -1,0 +1,14 @@
+{
+  "name": "bundle-leak-check",
+  "version": "1.0.0",
+  "description": "Fail the build when your JavaScript bundle ships a secret, an internal hostname, an admin endpoint or a global you thought was tree-shaken away. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "bundle-leak-check": "cli.js" },
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "cli.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["secrets","secret-scanning","bundle","build","ci","security","leak","tree-shaking","webpack","rollup","esbuild","vite","gitleaks","credentials","static-analysis"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
