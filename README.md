@@ -176,4 +176,13 @@ throwing, and every built-in rule having a unique id and a global flag.
 
 ---
 
+## Related
+
+[leak-guard](https://github.com/ShendLlapashtica/leak-guard) — the same idea at
+the other end of the pipeline: a Claude Code plugin that stops a coding agent
+writing a credential into a file git would commit, before the bundle that this
+tool checks is ever built.
+
+---
+
 MIT © Shend Llapashtica
