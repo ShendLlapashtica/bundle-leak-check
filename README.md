@@ -1,5 +1,7 @@
 # bundle-leak-check
 
+[![tests](https://github.com/ShendLlapashtica/bundle-leak-check/actions/workflows/test.yml/badge.svg)](https://github.com/ShendLlapashtica/bundle-leak-check/actions/workflows/test.yml)
+
 **Fail the build when your JavaScript bundle ships something it must not.**
 
 A secret. An internal hostname. An admin endpoint. A source map pointing at
